@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #a2692b;
+    background-color: #ff9b2f;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -24,7 +24,10 @@ body {
         width:auto;
         max-height: 100%;
     }
-
+.titleinfo {
+    justify-content: center;
+    flex:content
+}
 .hero {
     height: 600px;
     width: 100%;
@@ -32,14 +35,6 @@ body {
     background-image: url("../images/Blue-Vibes.gif");
     background-size: cover;
     background-position: center;
-}
-
-.sco, .fo {
-    color:#095382;
-}
-
-.bo, .sho {
-    color:#ea9d4b;
 }
 
 header h1{
@@ -76,7 +71,7 @@ header h1{
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color:#095382
+    color:#bf6900
 }
 
 .header nav ul {
@@ -86,11 +81,20 @@ header h1{
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-underline-position: below;
 }
-
+.summary {
+    font-size: 24px;
+    font-weight:lighter;
+    justify-content:center;
+    display: flex;
+    flex-wrap:wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
 a {
     text-decoration: none;
-    color:#095382
+    color:#dd8202;
+    text-underline-position: below;
 }
 
 .content h3 {
@@ -105,11 +109,11 @@ a {
         background-color:red;
     }
     .hero {
-        height:300px;
-        width:50%;
+        display:none;
     }
-    .header nav ul {
-        list-style-type:none;
-        flex-wrap:wrap
+    .sumarry {
+        justify-content: center;
+        flex-wrap;
+        font-size: 8px;
     }
 }
