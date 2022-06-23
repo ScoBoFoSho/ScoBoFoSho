@@ -128,8 +128,12 @@ footer {
     
 }
 @media screen and (max-width: 600px) {
-    .header {
+    header {
         flex-shrink: initial;
+        background-color: #34a3af;
+    }
+    body {
+        background-color: #dd8202;
     }
     .hero {
         display:none;
