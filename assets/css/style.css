@@ -93,15 +93,23 @@ a {
     color:#095382
 }
 
-.content h2 {
+.content h3 {
     font-size: 28px;
 }
-.content h2:hover{
+.content h3:hover{
     font-size: 56px;
 }
 
 @media screen and (max-width: 600px) {
     .header {
         background-color:red;
+    }
+    .hero {
+        height:300px;
+        width:50%;
+    }
+    .header nav ul {
+        list-style-type:none;
+        flex-wrap:wrap
     }
 }
