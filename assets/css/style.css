@@ -107,7 +107,7 @@ a {
 #runbuddy {
     -webkit-transition: width 1s, height 1s;
     transition: width 1s, height 1s;
-    
+
 }
 #runbuddy :hover{
     width: 40%;
@@ -121,9 +121,15 @@ a {
     width: 40%;
     height: 40%;
 }
+footer {
+    font-size: 28px;
+    justify-content: start;
+    flex:initial
+    
+}
 @media screen and (max-width: 600px) {
     .header {
-        background-color:red;
+        flex-shrink: initial;
     }
     .hero {
         display:none;
