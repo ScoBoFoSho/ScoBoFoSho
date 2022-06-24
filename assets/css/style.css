@@ -41,6 +41,7 @@ header h1{
     padding: 20px 35px;
   }
   
+  /* everthing from here.........."GO DOWN */
 .header {
     padding-top: 15px;
     padding-right: 20px;
@@ -50,7 +51,7 @@ header h1{
     margin-left: 0;
     background-color:#34a3af;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     flex-direction:column;
     align-items: center;
     align-content: space-around;
@@ -84,6 +85,7 @@ header h1{
     margin-left: 25px;
     text-underline-position: below;
 }
+/* ....TO HERE!!! helps style and balance the heading! FLex technology allows the hero, nav bar, and title/h1 to format to different screen sized (the media querey assists this later on, too */
 .summary {
     font-size: 24px;
     font-weight:lighter;
@@ -97,14 +99,7 @@ a {
     color:#dd8202;
     text-underline-position: below;
 }
-
-/* .content h3 {
-    font-size: 28px;
-}
-.content h3:hover{
-    font-size: 56px;
-} */
-
+/* these IDS help create the growing function that enlarges my ***current*** two projects.  */
 #runbuddy {
     -webkit-transition: width 1s, height 1s;
     transition: width 1s, height 1s;
@@ -128,7 +123,8 @@ footer {
     flex:initial
     
 }
-@media screen and (max-width: 600px) {
+/* the main purpose of my media querey is to keep items centered and remove my fun gif when the screen gets too small/is presented on a phone or mobile device  */
+@media screen and (max-width: 400px) {
     header {
         flex-shrink: initial;
         background-color: #34a3af;
@@ -144,4 +140,15 @@ footer {
         flex-wrap;
         font-size: 8px;
     }
+}
+
+#my-portfolio p {
+    font-size: 28px;
+}
+
+p {
+    font-size: 30px;
+}
+.SubClass h3 {
+    font: size 58px;
 }
